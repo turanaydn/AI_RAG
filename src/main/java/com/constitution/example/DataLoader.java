@@ -16,6 +16,7 @@ public class DataLoader {
     private final VectorStore vectorStore;
     private final JdbcClient jdbcClient;
 
+
     @Value("classpath:/turkey_constitution_0.pdf")
     private Resource pdfResource;
 
